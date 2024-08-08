@@ -1,0 +1,39 @@
+    1  mkdir linux_practice
+    2  cd linux_practice
+    3  touch notes.txt
+    4  ls
+    5  cat notes.txt
+    6  echo "Hello, linux" > notes.txt
+    7  echo "This is a practical exam." >> notes.txt
+    8  head notes.txt
+    9  tail notes.txt
+   10  mkdir subdir
+   11  mv notes.txt subdir
+   12  mv subdir practice_subdir
+   13  cp practice_subdir/notes.txt
+   14  cp --help
+   15  cp practice_subdir/notes.txt.
+   16  cp practice_subdir/notes.txt .
+   17  date
+   18  uptime
+   19  du -sh ~
+   20  ssh -v
+   21  php -v
+   22  mysql --version
+   23  apache2 -v
+   24  python -v
+   25  java -v
+   26  java -version
+   27  gh repo clone github.com/ReymartViloria/236760429-viloria
+   28  pkg install gh
+   29  gh repo clone github.com/ReymartViloria/236760429-viloria
+   30  gh auth login
+   31  gh repo clone github.com/ReymartViloria/236760429-viloria
+   32  ls l
+   33  ls
+   34  cd 236760429-viloria
+   35  git checkout -b finalexam
+   36  git config --global --add safe
+   37  git config --global --add safe.directory /storage/emulated/0/gitgit/linux_practice/236760429-viloria
+   38  git checkout -b finalexam
+   39  history > exam_log.txt
